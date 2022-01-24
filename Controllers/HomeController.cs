@@ -10,7 +10,7 @@ using Shop.Repositories;
 
 namespace Shop.Controllers
 {
-    public class HomeController
+    public class HomeController : Controller
     {
         [HttpPost]
         [Route("login")]
